@@ -4,16 +4,85 @@
 	<meta charset="utf-8">
 	<title>Coursera is Cool</title>
 	<style>
+		* {
+			box-sizing: border-box;
+		}
 		span.mark {
 			color:red;
 		}
-		p:hover {
+		p.hov:hover {
 			color:blue;
 		}
-		
+		#box1 {
+			background-color: pink;
+			padding: 10px 20px 10px 20px;
+			border: 3px solid purple;
+			margin: 20px 10px 20px 10px;
+			width: 200px;
+			height: 50px;
+			overflow: auto;
+		}
+		#box2 {
+			background-color: grey;
+			padding: 5px 10px 5px 10px;
+			border: 2px dashed black;
+			margin: 20px 10px 20px 10px;
+			width: 200px;
+		}
+		#box3 {
+			background-color: yellow;
+			padding: 10px;
+			border: 10px solid orange;
+			margin: 10px;
+			width: 60%;
+			height: 150px;
+			float: right;
+		}
+		a:link, a:visited {
+			padding: 10px;
+			margin: 20px 10px 20px 10px;
+			background-color: blue;
+			color: white;
+		}
+		div#container {
+			background-color: lightgreen;
+			height: 100px;
+			position: relative;
+			clear: right;
+		}
+		#box4 {
+			background-color: navy;
+			color: lightblue;
+			font-size: 2em;
+			width: 200px;
+			height: 50px;
+			position: relative;
+			top: 30px;
+			left: 50px;
+		}
+		#section {
+			padding: 10px;
+			margin: 10px;
+			text-align: center;
+			clear: right;
+		}
+		@media (min-width: 800px) {
+			p {
+				background-color: black;
+			}
+		}
 	</style>
 </head>
 <body>
-	<p>Coursera is cool! I'm learning <span class="mark">so much</span>.</p>
+	<p class="hov">Touch to change color.</p>
+	<p id="box1">Coursera is cool! I'm learning <span class="mark">so much</span>.</p>
+	<p id="box2">I weave music with my calculator.</p>
+	<p id="box3">👀</p>
+	<a href="#section">Go there</a>
+	<div id="container">
+		<p id="box4">Sniff sniff.</p>
+	</div>
+	<p>~~River~~</p>
+	<p id="section">Been there, done that, bought souvenirs.</p>
 </body>
 </html>
