@@ -1,0 +1,58 @@
+* {
+	box-sizing: border-box;
+}
+h1 {
+	text-align: center;
+	font-size: 1.75em;
+}
+
+h2.menu1 {
+	background-color: pink;
+}
+h2.menu2 {
+	background-color: brown;
+}
+h2.menu3 {
+	background-color: beige;
+}
+div {
+	position: relative;
+	background-color: lightgrey;
+	border: 1px solid black;
+	padding: 0px;
+	margin: 1% 1% 0% 0%;
+}
+h2 {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 0px;
+	border: 1px solid black;
+	margin: 0px;
+	width: 150px;
+	text-align: center;
+	font-size: 1.25em;
+}
+p {
+	padding: 20px 10px 5px 10px;
+	font-size: 1em;
+}
+@media (min-width: 992px) {
+	.col-lg-4 {
+		float: left;
+		border: 1px solid black;
+		width: 32%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		float: left;
+		width: 49%;
+	}
+	.col-md-12 {
+		float: left;
+		width: 99%;
+	}
+}
+
