@@ -1,0 +1,18 @@
+div.container {
+	background-color: lightgrey;
+}
+div.row {
+	background-color: yellow;
+	margin-bottom: 10px;
+}
+div.col-md-4 {
+	border: solid;
+	border-width: 1px;
+	border-color: blue;
+}
+
+div.col-md-6 {
+	border: solid;
+	border-width: 1px;
+	border-color: red;
+}
