@@ -3,3 +3,12 @@ nav li {
 	text-align: center;
 	background-color: white;
 }
+.navbar {
+	padding: 0.5rem 0rem;
+}
+.navbar-brand {
+	margin-left:0.5rem;
+}
+button.navbar-toggler {
+	margin-right: 0.5rem;
+}
